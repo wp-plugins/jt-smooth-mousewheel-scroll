@@ -1,0 +1,56 @@
+/*----------------------------------------------------------------------------
+ * Admin page
+ ---------------------------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+#cgs_setting_page {font-family:'Open Sans', '돋움', 'Dotum', sans-serif; max-width:850px; margin:0 auto; padding-right:10px; color:#555;}
+#cgs_setting_page header {position:relative;}
+#cgs_setting_page .translation {position:absolute; width:100%; text-align:right;}
+#cgs_setting_page .translation p {display:inline-block; padding:5px 10px; background-color:#fcfcfc; color:#D8A842; transition:all 0.4s; webkit-transition:all 0.4s; cursor:pointer;}
+#cgs_setting_page .translation p:hover {color:#fff; background-color:#E9CC8E;}
+#cgs_setting_page h1 {font-size:28px; line-height:32px; text-align:center; color:#666; margin:0; padding:40px 0; border-top:3px solid #E9CC8E; font-weight:normal;}
+#cgs_setting_page h1 span {color:#D8A842;}
+#cgs_setting_page h1 span.version {color:#999; font-size:12px;}
+#cgs_setting_page a {color:#D8A842; text-decoration:none; transition:all 0.3s; -webkit-transition:all 0.3s;}
+#cgs_setting_page a:hover {color:#8F782A;}
+
+#cgs_setting_page .device_option {padding:2px 20px 3px; background:#FCFCFC; border-bottom:1px solid #DBDBDB;}
+#cgs_setting_page .device_option p {font-size:13px; line-height:16px;}
+#cgs_setting_page .device_option input {margin-left:10px;}
+#cgs_setting_page .device_option input:first-child {margin-left:0;}
+
+#cgs_setting_page .script_option {margin-top:10px;}
+#cgs_setting_page .script_option ul {margin:0;}
+#cgs_setting_page .script_option ul li {list-style:none; font-size:13px; line-height:16px; letter-spacing:1px; padding:15px 20px; background:#FCFCFC; border-bottom:1px solid #DBDBDB; transition:all 0.3s; -webkit-transition:all 0.3s;}
+#cgs_setting_page .script_option ul li.check {background:#E9CC8E; border-bottom:1px solid #D8A842;}
+#cgs_setting_page .script_option ul li input {float:left; margin-top:1px;}
+#cgs_setting_page .script_option ul li label {margin-left:5px;}
+#cgs_setting_page .script_option ul li label span.default {color:#999; font-size:11px; margin-left:5px;}
+#cgs_setting_page .script_option p {font-size:12px; color:#8F782A; padding-left:3px;}
+#cgs_setting_page .script_option p i {font-size:14px; margin-right:5px;}
+
+#cgs_setting_page .scroll_option {margin-top:30px;}
+#cgs_setting_page .scroll_option ul {padding:10px 0 11px; background:#FCFCFC; border-bottom:1px solid #DBDBDB;}
+#cgs_setting_page .scroll_option ul li {list-style:none; padding:5px 20px; margin:0;}
+#cgs_setting_page .scroll_option ul li i {font-size:14px; margin-right:7px;}
+#cgs_setting_page .scroll_option ul li input, 
+#cgs_setting_page .scroll_option ul li select {background:#FCFCFC; border:0; color:#D8A842; border-bottom:1px solid #D8A842; box-shadow:none; margin-right:3px; font-weight:bold; text-align:center;}
+#cgs_setting_page .scroll_option ul li input {width:70px;}
+#cgs_setting_page .scroll_option ul li select {}
+#cgs_setting_page .scroll_option ul li span.default {font-size:12px; color:#999; margin-left:5px;}
+#cgs_setting_page .scroll_option ul li p {font-size:13px; color:#8F782A;}
+#cgs_setting_page .scroll_option ul li p i {font-size:14px; margin-right:5px;}
+
+#cgs_setting_page .option_submit {text-align:center;}
+#cgs_setting_page .option_submit p {display:inline-block; font-size:12px; padding:8px 30px; background:#e9cc8e; border-bottom:1px solid #d8a842; cursor:pointer; transition:all 0.3s; -webkit-transition:all 0.3s;}
+#cgs_setting_page .option_submit p i {font-size:14px; margin-right:5px;}
+#cgs_setting_page .option_submit p:hover {background:#DDBE7E; border-bottom:1px solid #D1AC5F;}
+
+#cgs_setting_page footer {margin-top:60px;}
+#cgs_setting_page footer h2 {font-size:14px; padding-bottom:5px; border-bottom:1px solid #E9CC8E;}
+#cgs_setting_page footer p {font-size:13px; line-height:16px;}
+#cgs_setting_page footer p i {font-size:16px; margin-right:5px;}
+
+#cgs_setting_page #save_ok {position:fixed; width:100%; height:100%; background-color:rgba(0,0,0,0.5); text-align:center; top:0; left:0; display:none; z-index:10000;}
+#cgs_setting_page #save_ok p {position:fixed; display:inline-block; font-size:52px; line-height:52px; padding:30px 40px; top:50%; margin-top:-56px; background:#E9CC8E; border-bottom:4px solid #D8A842; color:#fff; font-weight:bold; margin-left:-134px; left:50%;}
+#cgs_setting_page #save_ok p i {margin-right:5px; font-size:54px;}
